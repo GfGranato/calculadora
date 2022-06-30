@@ -15,5 +15,6 @@ public class Display extends JPanel {
 
         setLayout(new FlowLayout(FlowLayout.RIGHT, 10, 25));
         add(label);
+        System.out.println("here4");
     }
 }

@@ -13,5 +13,6 @@ public class Botao extends JButton {
         setFont(new Font("courie",Font.PLAIN, 25));
         setForeground(Color.WHITE);
         setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        System.out.println("here");
     }
 }
