@@ -56,5 +56,6 @@ public class Teclado extends JPanel {
         constraint.gridy = y;
         Botao botao = new Botao(text, cor);
         add(botao, constraint);
+        System.out.println("here2");
     }
 }
