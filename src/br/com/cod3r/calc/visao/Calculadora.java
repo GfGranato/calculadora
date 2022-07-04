@@ -22,7 +22,6 @@ public class Calculadora extends JFrame {
         add(display, BorderLayout.NORTH);
         Teclado teclado = new Teclado();
         add(teclado, BorderLayout.CENTER);
-        System.out.println("here3");
     }
 
     public static void main(String[] args) {
